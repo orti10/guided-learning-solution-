@@ -1,4 +1,4 @@
-# guided-learning-solution (GLS)
+# Guided-Learning-Solution (GLS)
 
 ### Welcome to my very first minified Guided Learning Solution (GLS) project!
 GLS is a solution that enables step by step guidance on top of any web interface. 
