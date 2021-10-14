@@ -17,6 +17,7 @@ The script can inject into google using [DevTools Console](https://developers.go
 - You can go to the previous step `<-`
 - Follows all the 5 steps and presents the current step `1/5, 2/5...`
 - The tooltip appears in a specific location to it's selector and placement
+- Custom tooltip should be shown - 'Google' image, 'Images' link, 'Search' box and 'Google Search' button
 - You can close the guide anytime
 
 ### Setup Instructions:
@@ -27,4 +28,3 @@ The script can inject into google using [DevTools Console](https://developers.go
 5. Copy ALL player.js code
 6. Paste player.js in the console and press `Enter`
 7. You will see the GLS in action!
-
