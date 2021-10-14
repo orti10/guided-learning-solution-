@@ -28,3 +28,9 @@ The script can inject into google using [DevTools Console](https://developers.go
 5. Copy ALL player.js code
 6. Paste player.js in the console and press `Enter`
 7. You will see the GLS in action!
+
+### Video guide
+
+https://user-images.githubusercontent.com/44768171/137317476-f6dcf12f-4aa2-412f-a17b-22e8a684c569.mp4
+
+
