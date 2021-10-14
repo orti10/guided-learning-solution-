@@ -41,3 +41,22 @@ function addToolTip(tooltipCss, tip){
     addActionsToTooltip();
     addTooltipContent();
 }
+
+// Expands the operations of the Tool tip
+function addActionsToTooltip() {
+    (window.jQuery)("a[data-iridize-role='nextBt']").click(nextClick);
+    (window.jQuery)("button[data-iridize-role='closeBt']").click(closeTooltip);
+    (window.jQuery)("button[data-iridize-role='prevBt']").click(backClick);
+}
+
+function addTooltipContent() {
+    (window.jQuery)("span[data-iridize-role='stepCount']").text(currStepIndex + 1);
+    const action = steps[currStepIndex].action;
+    let content;
+    if (action.type === ActionType.TIP) {
+        content = action.contents["#content"];
+    } else {
+        content = '<p>You have completed the guide!</p>';
+    }
+    (window.jQuery)("div[data-iridize-id='content']").html(content);
+}
